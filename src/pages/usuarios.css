@@ -1,0 +1,120 @@
+.users-page {
+  width: 100%;
+}
+
+.users-data-icon {
+  color: #66529b;
+  background: #eeeafb;
+}
+
+.users-table {
+  min-width: 950px;
+}
+
+.user-table-name {
+  min-width: 190px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-table-avatar {
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: #685044;
+  background: #efe7e2;
+}
+
+.user-table-name > div:last-child {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.user-table-name strong {
+  color: #433a35;
+  font-size: 12px;
+}
+
+.user-table-name span {
+  color: #999089;
+  font-size: 9px;
+}
+
+.user-email {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #746a63;
+  font-size: 11px;
+}
+
+.roles-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.role-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px 8px;
+  border-radius: 7px;
+  color: #62518e;
+  background: #f0ecf8;
+  font-size: 9px;
+  font-weight: 800;
+}
+
+.user-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px 9px;
+  border-radius: 999px;
+  font-size: 9px;
+  font-weight: 800;
+}
+
+.user-status.active {
+  color: #477755;
+  background: #e7f3ea;
+}
+
+.user-status.inactive {
+  color: #986058;
+  background: #fae9e7;
+}
+
+.user-status.blocked {
+  color: #a04d47;
+  background: #fbe7e5;
+}
+
+.failed-attempts {
+  display: inline-flex;
+  min-width: 28px;
+  justify-content: center;
+  padding: 4px 7px;
+  border-radius: 6px;
+  color: #6f655e;
+  background: #f2efec;
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.failed-attempts.warning {
+  color: #a26b2d;
+  background: #fbf0dc;
+}
+
+.blocked-until {
+  color: #8b817a;
+  font-size: 10px;
+}
